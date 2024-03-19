@@ -1,16 +1,16 @@
 # Docker
 
 ## Das solltest du wissen:
-
+![Docker?](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/305101027/original/a3f981efac2d0ecf90b4920f640c3d112fe9c79f/dockerize-your-application-for-easy-deployment-and-scaling.jpg)
 ### Warum verwenden wir Docker?
-- **Vorteile**: Docker ermöglicht die Containerisierung von Anwendungen, wodurch diese in verschiedenen Umgebungen konsistent ausgeführt werden können. Es bietet eine leichtgewichtige Möglichkeit, Anwendungen und deren Abhängigkeiten zu isolieren und zu verwalten.
-- **Nachteile**: Komplexere Konfiguration kann erforderlich sein, und es gibt potenzielle Sicherheitsbedenken bei der Verwendung von Containern.
+- **Vorteile**: Docker hilft uns, Anwendungen leichter zu verpacken, zu versenden und auszuführen. Es macht den Prozess der Bereitstellung von Software schneller und konsistenter, unabhängig von der Umgebung, in der sie läuft.
+- **Nachteile**: Die Einrichtung und Verwaltung von Docker kann für Anfänger kompliziert sein und unsachgemäße Konfigurationen können Sicherheitsprobleme verursachen. Außerdem können Docker-Container zusätzliche Ressourcen auf dem System beanspruchen, was zu Leistungsproblemen führen kann, besonders auf älteren Computern.
 
 ### Dockerfiles und ihre Verwendung:
-Dockerfiles sind Textdokumente, die eine Reihe von Befehlen enthalten, um ein Docker-Image zu erstellen. Sie definieren die Umgebung, in der eine Anwendung ausgeführt wird, einschließlich der Basis-Images, Pakete und Konfigurationen.
+Dockerfiles sind wie Rezepte für die Zubereitung von Kochgerichten, aber für das Erstellen von Software. Sie sagen Docker, was in einem Docker-Image enthalten sein soll und wie es erstellt werden soll.
 
 ### Erstellung von Docker-Images:
-Docker-Images werden durch Ausführen des Befehls docker build erstellt, der die Anweisungen im Dockerfile verwendet, um Schichten zu erstellen, die das Image definieren.
+Docker-Images werden durch Ausführen eines Docker-Befehls erstellt, der die Anweisungen in einem Dockerfile befolgt. Dieser Befehl nimmt das Dockerfile und verwandelt es in ein ausführbares Image.
 
 ### Basis-Image:
 Ein Basis-Image ist das Ausgangsimage, auf dem ein Docker-Image aufbaut. Es enthält das Betriebssystem und grundlegende Softwarepakete, die für die Ausführung von Anwendungen benötigt werden.
