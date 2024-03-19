@@ -20,6 +20,8 @@ Dockerfiles sind wie Rezepte für die Zubereitung von Kochgerichten, aber für d
 ### Erstellung von Docker-Images:
 Docker-Images werden durch Ausführen eines Docker-Befehls erstellt, der die Anweisungen in einem Dockerfile befolgt. Dieser Befehl nimmt das Dockerfile und verwandelt es in ein ausführbares Image.
 
+![Dockerfiles](https://miro.medium.com/v2/resize:fit:1400/0*CP98BIIBgMG2K3u5.png)
+
 ### Basis-Image:
 Ein Basis-Image ist das Ausgangsimage, auf dem ein Docker-Image aufbaut. Es enthält das Betriebssystem und grundlegende Softwarepakete, die für die Ausführung von Anwendungen benötigt werden.
 
