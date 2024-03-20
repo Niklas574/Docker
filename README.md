@@ -11,9 +11,6 @@
 | - Einfache Updates und Rollbacks                    | - Mögliche Leistungsprobleme, vor allem auf älteren Computern          |
 | - Effiziente Ressourcennutzung durch Container      | - Lernkurve für Anfänger                                                |
 
-<!-- - **Vorteile**: Docker hilft uns, Anwendungen leichter zu verpacken, zu versenden und auszuführen. Es macht den Prozess der Bereitstellung von Software schneller und konsistenter, unabhängig von der Umgebung, in der sie läuft.
-- **Nachteile**: Die Einrichtung und Verwaltung von Docker kann für Anfänger kompliziert sein und unsachgemäße Konfigurationen können Sicherheitsprobleme verursachen. Außerdem können Docker-Container zusätzliche Ressourcen auf dem System beanspruchen, was zu Leistungsproblemen führen kann, besonders auf älteren Computern.-->
-
 ### Dockerfiles und ihre Verwendung:
 Dockerfiles sind wie Rezepte für die Zubereitung von Kochgerichten, aber für das Erstellen von Software. Sie sagen Docker, was in einem Docker-Image enthalten sein soll und wie es erstellt werden soll.
 
