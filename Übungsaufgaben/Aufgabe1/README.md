@@ -2,6 +2,9 @@
 ## Vorbereitung Aufgabe 1
 - Installiere Docker Desktop.
     - Gehe auf die [Seite](https://www.docker.com/products/docker-desktop/) von Docker.
+    - Sobald der download abgeschlossen ist führe die Datei aus.
+    - Nach ca. 5 Minuten sollte der Download fertig sein.
+    - Daraufhin muss das Gerät neugestartet werden.
 - Erstelle ein Projekt in Visual Studio Code.
 - Erstelle eine einfache HTML (und CSS).
 
