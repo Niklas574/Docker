@@ -49,21 +49,3 @@ Best Practices für Docker-Images beinhalten die Nutzung von kleinen Basis-Image
 ### Sicherheit von Docker-Images:
 Die Sicherheit von Docker-Images kann durch Überprüfen von Quellcode, Verwendung bekannter und vertrauenswürdiger Basis-Images, regelmäßige Updates und Patches sowie die Implementierung von Sicherheitsrichtlinien und -maßnahmen verbessert werden.
 
-## Praxis:
-Aufgabe 1:
-Installiere Docker Desktop.
-Erstelle ein Projekt in Visual Studio Code.
-Erstelle eine einfache HTML (und CSS falls erforderlich).
-Erstelle ein Dockerfile, das die Anwendungsumgebung definiert.
-Baue ein Docker-Image mit dem erstellten Dockerfile.
-Teste lokal, ob das Docker-Image korrekt funktioniert.
-Pushe das erstellte Docker-Image in ein Azure Container Registry.
-Erstelle eine Containerinstanz in Azure, die auf das gepushte Image in der Registry verweist.
-Aufgabe 2:
-Erstelle ein zentrales Verzeichnis in Visual Studio Code mit Frontend- und Backend-Unterverzeichnissen.
-Erstelle die erforderlichen Dateien für Frontend und Backend.
-Konfiguriere die Dateien entsprechend, um eine Verbindung zwischen Frontend und Backend herzustellen.
-Baue Docker-Images für Frontend und Backend mithilfe der Dockerfiles.
-Tagge und pushe die Docker-Images in das Azure Container Registry.
-Erstelle zwei Azure Containerinstanzen (eine für Frontend, eine für Backend), die auf die gepushten Images in der Registry verweisen.
-Versuche den Web-Server über die IP-Adresse und den Port im Webbrowser aufzurufen.
