@@ -42,7 +42,7 @@
 ***
 ## docker push
 - docker push <login_server>.azurecr.io/<image_name>
-    - docker push sysdockerregistry.azurecr.io/test:v1.0
+    - docker push testcontainerregistry.azurecr.io/test:v1.0
 >[!NOTE]
 >Image auf Azure pushen.
 ***
@@ -50,4 +50,16 @@
 - docker images
 >[!NOTE]
 >Zeigt alle Images an
+***
+## az acr credential show
+- az acr credential show --name <ContainerRegistry_Name>
+    - az acr credential show --name testcontainerregistry
+>[!NOTE]
+>Zeigt den Anmeldenamen und das Passwort an.
+***
+## az container create
+- az container create --resource-group <rg-name> --name <container_name> --image <image_name> --registry-login-server <login_server>.azurecr.io --registry-username <username> --registry-password <password>
+    - az container create --resource-group example-rg --name examplecontainername --image testcontainerregistry.azurecr.io/test:v1.0 --registry-login-server testcontainerregistry.azurecr.io --registry-username <username> --registry-password <password>
+>[!NOTE]
+>Erstellt eine Container Instance für den Container Registry.
 ***
