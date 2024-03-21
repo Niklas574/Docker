@@ -16,12 +16,10 @@
 
 ### **Aufgabenstellung**:
 - Erstelle ein Dockerfile, das die Anwendungsumgebung definiert.
-    - Erstelle eine Datei mit der Endung ".dockerfile"
 - Baue ein Docker-Image mit dem erstellten Dockerfile.
-    - Benutze zum Beispiel Powershell um aus dem Dockerfile ein Image zu machen.
 - Teste lokal, ob das Docker-Image korrekt funktioniert.
-    - 
 - Pushe das erstellte Docker-Image in ein Azure Container Registry.
-    - 
 - Erstelle eine Containerinstanz in Azure, die auf das gepushte Image in der Registry verweist.
-    - 
+
+>[!TIP]
+>Falls benötigt sind [hier](https://github.com/Niklas574/Docker/blob/main/Übungsaufgaben/Aufgabe1/Commands.md) nützliche Befehle zu finden.
