@@ -58,8 +58,8 @@
 >Zeigt den Anmeldenamen und das Passwort an.
 ***
 ## az container create
-- az container create --resource-group <rg-name> --name <container_name> --image <image_name> --registry-login-server <login_server>.azurecr.io --registry-username <username> --registry-password <password>
-    - az container create --resource-group example-rg --name examplecontainername --image testcontainerregistry.azurecr.io/test:v1.0 --registry-login-server testcontainerregistry.azurecr.io --registry-username <username> --registry-password <password>
+- az container create --resource-group <resourcegroup_name> --name <container_name> --image <image_name> --registry-login-server <login_server>.azurecr.io --registry-username <username> --registry-password <password>
+    - az container create --resource-group example-rg --name examplecontainername --image testcontainerregistry.azurecr.io/test:v1.0 --registry-login-server testcontainerregistry.azurecr.io --registry-username <username_from_acr> --registry-password <password_from_acr>
 >[!NOTE]
 >Erstellt eine Container Instance für den Container Registry.
 ***
