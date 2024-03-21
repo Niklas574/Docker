@@ -1,8 +1,6 @@
-# Verwende ein offizielles Node.js-Image als Basis
-FROM node:14
-
-# Setze das Arbeitsverzeichnis im Container
-WORKDIR /usr/src/app
-
-# Füge eine zusätzliche Schicht hinzu, um eine leere Textdatei zu erstellen
-RUN touch /empty.txt
+FROM node:18-alpine
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+EXPOSE 3000
