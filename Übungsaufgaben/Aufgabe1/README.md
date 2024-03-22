@@ -8,7 +8,7 @@
     - Nach dem Neustart startet sich Docker wieder und sie müssen sich anmelden.
     - Nach der Anmeldung/Registrierung ist Desktop Docker fertig eingerichtet.
 >[!TIP]
->Es ist empfehenswert die vorgeschlagene Tutorials zu machen, falls man noch nicht viel mit Docker gearbeitet hat.
+>Es ist empfehenswert die vorgeschlagene Tutorials in Docker Desktop zu machen, falls man noch nicht viel mit Docker gearbeitet hat.
 - Erstelle ein Projekt in Visual Studio Code.
 - Erstelle eine einfache HTML (und CSS).
 
