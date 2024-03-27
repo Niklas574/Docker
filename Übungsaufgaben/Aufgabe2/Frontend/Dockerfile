@@ -2,8 +2,8 @@
 
 FROM node:18-alpine
 WORKDIR /app
-COPY . /app/Backend
+COPY . /app/Frontend
 RUN yarn install --production
 RUN npm install express
-CMD ["node", "./Backend/index.js"]
+CMD ["node", "./Frontend/index.js"]
 EXPOSE 3000
