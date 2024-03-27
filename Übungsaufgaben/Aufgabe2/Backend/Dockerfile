@@ -6,4 +6,4 @@ COPY . /app/Backend
 RUN yarn install --production
 RUN npm install express
 CMD ["node", "./Backend/index.js"]
-EXPOSE 3000
+EXPOSE 2000

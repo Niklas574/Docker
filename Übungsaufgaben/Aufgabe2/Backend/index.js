@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Definiere den Port, auf dem der Server laufen soll
-const PORT = 3000;
+const PORT = 2000;
 
 // Erstelle einen HTTP-Server und definiere eine Callback-Funktion, die bei jeder Anfrage ausgeführt wird
 const server = http.createServer((req, res) => {
