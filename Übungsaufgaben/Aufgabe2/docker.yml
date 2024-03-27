@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  frontend:
+    build: ./Frontend/Dockerfile
+    ports: 
+      - "3000:3000"
+  backend:
+    build: ./Backend/Dockerfile
+    ports:
+      - "2000:2000"
+    depends_on:
+      - frontend
